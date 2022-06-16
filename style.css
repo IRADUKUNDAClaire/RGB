@@ -22,37 +22,89 @@ border-right:3px solid white;
 padding-right:5px;
 }
 .searcher{
-    margin-left: 1300px;
+    margin-left: 1400px;
     margin-top:-25px;
 }
 .language{
-    margin-left: 1550px;
-    margin-top: -25px;
+    margin-left: 1650px;
+    margin-top: -23px;
+}
+.icon{
+margin-left: 152px;
+margin-top: -19px;
 }
 .top{
-   margin-top: 55px;
+   margin-top: 70px;
 }
-.one{
+/* .one{
     background-color: white;
     width: 500px;
     height: 450px;
-    margin-top: -100px;
+    margin-top: -200px;
     margin-left: 50px;
+    opacity color: #000;:white;
 }
 .two{
-    background-color: white;
+    background-color:white;
     width: 500px;
     height: 450px;
-    margin-top: -500px;
+    margin-top: -450px;
     margin-left: 600px;
 }
 .three{
     background-color: white;
     width: 500px;
     height: 450px;
-    margin-top: -500px;
-    margin-left: 1150px;  
+    margin-top: -450px;
+    margin-left: 1150px;
+   
 }
+
+.four{
+    background-color:  white;
+    width: 500px;
+    height: 450px;
+    margin-top: 40px;
+    margin-left: 50px;
+  
+}   
+.five{
+    background-color: white;
+    width: 500px;
+    height: 450px;
+    margin-top:-448px;
+    margin-left: 600px;
+}   
+.six{
+    background-color: white;
+    width: 500px;
+    height: 450px;
+    margin-top: -450px;
+    margin-left: 1150px;   
+} */
 .middle{
-    background-color: blueviolet;
+    background-color:blue;
+    height:1000px;
+    width: 2000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-gap:-1000px; */
+    padding: 5px;
+}
+.container{
+    position: fixed;
+    background-color: white;
+    height: 100px;
+    width: 2000px;
+    margin-top: -80px;
+    margin-left: -9px;
+   
+.picture{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:70px;
+    padding: 5px;
+}
+.ALL{
+    width: 50px;
 }
