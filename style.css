@@ -1,4 +1,34 @@
 
+.all{
+
+
+    width: 100%;
+    height: auto;
+    
+}
+
+
+
+
+.container{
+    position: fixed;
+    background-color: white;
+    height: 100px;
+    width: 99%;
+    margin-top: -80px;
+    
+}
+.header{
+
+    width: 100px;
+}
+.top{
+    width: 100%;
+
+
+}
+
+
 .logon{
     height: 70px;
     width: auto;
@@ -11,22 +41,23 @@ grid-template-columns: repeat(6,1fr);
 text-align: 3px;
 margin-top:-25px;
 margin-left: 50px;
-width: 800px;
-margin-left: 400px; 
+width: 600px;
+margin-left: 300px; 
 padding: -3px;
 }
 .bar a{
     color:#090515;
 text-decoration: none;
 border-right:3px solid white;
-padding-right:5px;
+font-size: 15px;
+
 }
 .searcher{
-    margin-left: 1400px;
+    margin-left: 1000px;
     margin-top:-25px;
 }
 .language{
-    margin-left: 1650px;
+    margin-left: 1200px;
     margin-top: -23px;
 }
 .icon{
@@ -36,75 +67,204 @@ margin-top: -19px;
 .top{
    margin-top: 70px;
 }
-/* .one{
+
+.one{
+   margin-top: -200px;
     background-color: white;
-    width: 500px;
-    height: 450px;
-    margin-top: -200px;
-    margin-left: 50px;
-    opacity color: #000;:white;
+    margin-left: 100px;
+    width: 350px;
+    height: 400px;
+
 }
 .two{
-    background-color:white;
-    width: 500px;
-    height: 450px;
-    margin-top: -450px;
-    margin-left: 600px;
+    margin-top: -200px;
+    background-color: white;
+    margin-left: 35px;
+    width: 350px;
+    height: 400px;
 }
 .three{
+    margin-top: -200px;
     background-color: white;
-    width: 500px;
-    height: 450px;
-    margin-top: -450px;
-    margin-left: 1150px;
+    margin-left: -15px;    
+    width: 350px;
+    height: 400px;
+}
+.four{
    
+    background-color: white;  
+    margin-left: 100px;
+
+    width: 350px; 
+    height: 400px; 
+} 
+.five{
+    
+    background-color: white;
+    margin-left: 35px;
+    width: 350px;  
+    height: 400px;
+}
+.six{
+    
+    background-color: white; 
+    margin-left: -15px;   
+    width: 350px;
+    height: 400px;
 }
 
-.four{
-    background-color:  white;
-    width: 500px;
-    height: 450px;
-    margin-top: 40px;
-    margin-left: 50px;
-  
-}   
-.five{
-    background-color: white;
-    width: 500px;
-    height: 450px;
-    margin-top:-448px;
-    margin-left: 600px;
-}   
-.six{
-    background-color: white;
-    width: 500px;
-    height: 450px;
-    margin-top: -450px;
-    margin-left: 1150px;   
-} */
 .middle{
+    background-color:rgb(238, 238, 238);
+    height:700px;
+    width:100.2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:-1000px;
+
+}
+
+/* .picture{
     background-color:blue;
-    height:1000px;
-    width: 2000px;
+    height:700px;
+    width:100.2%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* grid-gap:-1000px; */
-    padding: 5px;
-}
-.container{
-    position: fixed;
-    background-color: white;
-    height: 100px;
-    width: 2000px;
-    margin-top: -80px;
-    margin-left: -9px;
+    grid-gap:-1000px;
    
-.picture{
+
+} */
+.ibirango{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap:70px;
-    padding: 5px;
+    grid-template-columns: 6 1fr;
+    grid: gap -100px;
 }
-.ALL{
-    width: 50px;
+.seven{
+    margin-top: 115px;
+    margin-left: 110px;
+    width: 100px;  
+    height: 400px; 
+    
+    font-size: 10px;
 }
+.eight{
+    background-color: white; 
+    margin-left: 460px;   
+    width: 200px;
+    height: 400px; 
+    margin-top: -400px;
+    font-size: 10px;
+ 
+}
+.nine{
+    background-color: white;
+    margin-left: 880px;
+    width: 200px;  
+    height: 400px; 
+    margin-top: -400px;
+    
+    font-size: 10px;
+}
+.Governance{
+    background-color:grey;
+    height: 400px;
+}
+.Governance .p{
+    color:black;
+}
+.closed{
+    margin-top: 90px;
+    margin-left: 110px;
+    width: 300px;  
+    height: 100px; 
+   
+    font-size: 15px;
+}
+.patner{
+    
+    margin-left: 460px;   
+    width: 300px;
+    height: 100px; 
+    margin-top: -100px;
+    font-size: 15px;
+ 
+}
+.team{
+  
+    margin-left: 880px;
+    width: 300px;  
+    height: 100px; 
+    margin-top: -100px;
+    
+    font-size: 15px;
+}
+.ten{
+    margin-top: 100px;
+    background-color: grey;
+    margin-left: 85px;    
+    width: 70px;
+    height: 70px;
+    
+}
+.eleven{
+   
+    background-color: blue;  
+    margin-left: 260px;
+margin-top: -70px;
+    width: 70px; 
+    height: 70px; 
+} 
+.twelve{
+    
+    background-color: red;
+    margin-left: 430px;
+    width: 70px;  
+    height: 70px;
+    margin-top: -60px;
+}
+.thirteen{
+    
+    background-color:green; 
+    margin-left: 545px;   
+    width: 70px;
+    height: 70px;
+    margin-top: -90px;
+}
+.fourteen{
+    background-color: yellow; 
+    margin-left: 670px;   
+    width: 70px;
+    height: 70px;
+    margin-top: -60px;
+} 
+.fifteen{
+    background-color: yellow; 
+    margin-left: 795px;   
+    width: 70px;
+    height: 70px;
+    margin-top: -80px;  
+}  
+.last{
+background-color: grey;
+width: 100%;
+margin-top: 15px;
+}
+.last h{
+    margin-top: 20px;
+}
+.Service a{
+    color:black;
+    margin-left: 90px;
+    text-decoration-line: none;
+    margin-top: 70px;
+
+
+}
+
+.Governance p{
+    color:black;
+}
+.Governance a{
+    text-decoration-line: none;
+
+}
+
